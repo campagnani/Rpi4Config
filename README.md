@@ -5,8 +5,11 @@ Você pode executar manualmente os comandos passo-a-passo para aprender, ou exec
 ## Passos iniciais
 
 Baixe o [Debian para Raspberry](https://raspi.debian.net/daily-images/).
+
 Baixe e instale [Balena Etcher](https://github.com/balena-io/etcher/releases), e o use para colocar o Debian em um cartão de memória.
+
 Use gparted (ou outro programa similar) **NO SEU COMPUTADOR** para redimencionar a partição no cartão de memoria para o tamanho máximo.
+
 OBS: Para instalar o gparted digite:
 
 ~~~Debian/Ubuntu
@@ -32,7 +35,9 @@ OBS: Para instalar o gparted digite:
 ## Primeiro Login - Configurações basicas
 
 Coloque o cartão de memória no seu Raspberry.
+
 Conecte o cabo de rede.
+
 Logue como root (não tem senha ainda).
 
 Defina uma senha para o root:
@@ -96,8 +101,11 @@ Desloque do usuário root:
 Logue com seu usuario e senha.
 
 Instale a interface grafica:
+
 Dica: A interface LXDE é a uma das mais leves em questão de processamento e consumo de memória.
+
 Dica2: O metapacote lxde-core é a versão minimalista do LXDE, para versão completa use o pacote lxde.
+
 ```
     sudo apt install lxde-core -y
 ```
